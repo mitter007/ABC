@@ -1,0 +1,15 @@
+{"aggTime":"2025-11-19T15:05:10.399",
+  "firstDim":"errorCode6",
+  "groupcode":"0003",
+  "kpidate":"20251119",
+  "metricTimestamp":"2025-11-19T15:00:00.000",
+  "secDim":
+  "transCode5",
+  "syscode":"SDC2012120125",
+  "systemcase":"SDC201212_0121_03",
+  "tps":7,
+  "windowEnd":1763535900000,
+  "windowInterval":"15:00:00!!15:05:00",
+  "windowSize":300,
+  "windowStart":1763535600000
+}

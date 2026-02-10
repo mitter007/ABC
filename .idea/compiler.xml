@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="es-test" />
+        <module name="flink1.17" />
+        <module name="spark" />
+        <module name="errorcode-alert" />
+        <module name="es8" />
+        <module name="es-flink" />
+        <module name="es" />
+        <module name="redis" />
+        <module name="errorcode" />
+        <module name="Flink1.11" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="es" options="-parameters" />
+    </option>
+  </component>
+</project>
