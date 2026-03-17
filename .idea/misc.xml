@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/errorcode-alert/pom.xml" />
         <option value="$PROJECT_DIR$/flink1.17/pom.xml" />
         <option value="$PROJECT_DIR$/Flink1.11/pom.xml" />
+        <option value="$PROJECT_DIR$/Flink-cep/pom.xml" />
+        <option value="$PROJECT_DIR$/Flink/Flink-cep/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Study/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

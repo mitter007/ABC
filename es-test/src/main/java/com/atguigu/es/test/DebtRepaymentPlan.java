@@ -35,7 +35,7 @@ public class DebtRepaymentPlan {
     public static void main(String[] args) throws IOException {
         // 参数
         double externalDebt = 140000; // 外债
-        double monthlyExternalPayment = 20000; // 每月收入
+        double monthlyExternalPayment = 23000; // 每月收入
 
         double mortgageBalance = 780000; //房贷总额
         double mortgageRate = 0.032; // 年利率
@@ -117,7 +117,7 @@ public class DebtRepaymentPlan {
         }
 
         // 保存文件
-        try (FileOutputStream fileOut = new FileOutputStream("Debt_Repayment_Plan.xlsx")) {
+        try (FileOutputStream fileOut = new FileOutputStream("Debt_Repayment_Plan-23.xlsx")) {
             workbook.write(fileOut);
         }
 

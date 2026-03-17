@@ -8,16 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="es-test" />
         <module name="flink1.17" />
+        <module name="Flink-cep" />
         <module name="spark" />
         <module name="errorcode-alert" />
-        <module name="es8" />
-        <module name="es-flink" />
-        <module name="es" />
+        <module name="Thread-Study" />
         <module name="redis" />
         <module name="errorcode" />
         <module name="Flink1.11" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="es" target="1.8" />
+      <module name="es-flink" target="1.8" />
+      <module name="es8" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
