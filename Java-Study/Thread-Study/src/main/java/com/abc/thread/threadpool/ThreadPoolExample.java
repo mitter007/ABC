@@ -12,7 +12,6 @@ public class ThreadPoolExample {
         // 自定义线程工厂（方便排查问题）
         ThreadFactory threadFactory = new ThreadFactory() {
             private int count = 0;
-
             @Override
             public Thread newThread(Runnable r) {
                 Thread t = new Thread(r);

@@ -17,8 +17,15 @@
         <option value="$PROJECT_DIR$/Flink1.11/pom.xml" />
         <option value="$PROJECT_DIR$/Flink-cep/pom.xml" />
         <option value="$PROJECT_DIR$/Flink/Flink-cep/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Study/Map-Study/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Study/Thread-Study/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Study/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
+      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>

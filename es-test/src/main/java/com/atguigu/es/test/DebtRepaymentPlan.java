@@ -35,11 +35,12 @@ public class DebtRepaymentPlan {
     public static void main(String[] args) throws IOException {
         // 参数
         double externalDebt = 140000; // 外债
-        double monthlyExternalPayment = 23000; // 每月收入
+        double monthlyExternalPayment = 15000; // 每月收入
 
         double mortgageBalance = 780000; //房贷总额
         double mortgageRate = 0.032; // 年利率
         double mortgageMonthlyPayment = 3665; // 原等额本息月供
+        String fileName ="Debt_Repayment_Plan-15.xlsx";
 
         double monthlyIncome = 18000;
         double livingExpenses = 4000;
@@ -117,11 +118,11 @@ public class DebtRepaymentPlan {
         }
 
         // 保存文件
-        try (FileOutputStream fileOut = new FileOutputStream("Debt_Repayment_Plan-23.xlsx")) {
+        try (FileOutputStream fileOut = new FileOutputStream(fileName)) {
             workbook.write(fileOut);
         }
 
         workbook.close();
-        System.out.println("Excel 文件生成完成：Debt_Repayment_Plan.xlsx");
+        System.out.println("Excel 文件生成完成："+fileName);
     }
 }
