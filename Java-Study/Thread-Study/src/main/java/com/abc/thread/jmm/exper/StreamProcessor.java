@@ -5,7 +5,7 @@ package com.abc.thread.jmm.exper;
 //
 //一个数据处理线程持续消费数据（每次处理模拟 sleep 200ms），主线程在 2 秒后发出停止信号，处理线程能正确感知并优雅退出，打印总共处理了多少条数据。
 
-import jdk.nashorn.internal.ir.Flags;
+
 
 public class StreamProcessor {
 

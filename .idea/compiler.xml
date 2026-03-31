@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chapter_05" />
         <module name="es-test" />
         <module name="flink1.17" />
         <module name="Flink-cep" />
         <module name="spark" />
-        <module name="errorcode-alert" />
+        <module name="leetcode" />
         <module name="Map-Study" />
         <module name="Thread-Study" />
-        <module name="Java-Study" />
         <module name="errorcode" />
         <module name="Flink1.11" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="abc" target="1.8" />
+      <module name="errorcode-alert" target="1.8" />
       <module name="es" target="1.8" />
       <module name="es-flink" target="1.8" />
       <module name="es8" target="17" />

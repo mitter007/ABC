@@ -35,15 +35,13 @@ public class DebtRepaymentPlan {
     public static void main(String[] args) throws IOException {
         // 参数
         double externalDebt = 140000; // 外债
-        double monthlyExternalPayment = 15000; // 每月收入
+        double monthlyExternalPayment = 23000; // 每月收入
 
         double mortgageBalance = 780000; //房贷总额
         double mortgageRate = 0.032; // 年利率
-        double mortgageMonthlyPayment = 3665; // 原等额本息月供
-        String fileName ="Debt_Repayment_Plan-15.xlsx";
+        double mortgageMonthlyPayment = 1500; // 原等额本息月供
+        String fileName ="Debt_Repayment_Plan-23.xlsx";
 
-        double monthlyIncome = 18000;
-        double livingExpenses = 4000;
 //        double availableFunds = monthlyIncome - livingExpenses; // 14000 可用还款的资金
 
         List<MonthRecord> records = new ArrayList<>();
@@ -56,7 +54,7 @@ public class DebtRepaymentPlan {
             String monthStr = "Month " + monthCounter;
 
             // 外债还款
-            double externalPayment = externalRemaining > 0 ? Math.min(monthlyExternalPayment, 10335) : 0;
+            double externalPayment = externalRemaining > 0 ? Math.min(monthlyExternalPayment, 19435) : 0;
 
 
             externalRemaining -=Math.min(externalRemaining,externalPayment);

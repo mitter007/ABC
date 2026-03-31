@@ -1,6 +1,6 @@
 package com.abc.thread.sync.exper;
 
-import jdk.nashorn.internal.ir.IfNode;
+
 
 import java.util.Random;
 

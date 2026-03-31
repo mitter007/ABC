@@ -62,9 +62,11 @@ public class ESSink1 extends RichSinkFunction<Map<String, Object>> {
                         failure.printStackTrace();
                     }
                 })
+
                 .setBulkActions(500)
                 .setBulkSize(new ByteSizeValue(5, ByteSizeUnit.MB))
                 .setConcurrentRequests(2)
+                .setFlushInterval(TimeValue.timeValueSeconds(1))
                 .setBackoffPolicy(BackoffPolicy.constantBackoff(TimeValue.timeValueSeconds(1), 3))
                 .build();
     }

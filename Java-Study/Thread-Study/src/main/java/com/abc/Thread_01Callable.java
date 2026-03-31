@@ -1,6 +1,5 @@
 package com.abc;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

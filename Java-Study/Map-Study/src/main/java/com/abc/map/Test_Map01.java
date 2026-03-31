@@ -12,7 +12,7 @@ package com.abc.map;
 public class Test_Map01 {
     public static void main(String[] args) {
 
-        MyMap<String, Integer> map = new MyMap<>();
+        MyMap_01<String, Integer> map = new MyMap_01<>();
         map.put("a",1);
         map.put("b",1);
         map.put("c",1);
